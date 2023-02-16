@@ -1,0 +1,27 @@
+.nombre,.edad, #boton{
+	padding:7px;
+}
+
+form{
+	text-align:center;
+	margin-top:10%;
+	margin-bottom:70px;
+}
+table{
+	border:1px solid black;
+	margin:auto;
+	width:50%;
+	border-collapse:collapse;
+}
+
+th,td{
+	padding:10px;
+	text-align: center;
+}
+table tr:hover{
+	
+}
+
+.row:hover{
+	background-color:#ccc;
+}
