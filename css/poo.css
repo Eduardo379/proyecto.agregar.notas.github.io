@@ -1,11 +1,26 @@
+body{
+	background-color: #ccc;
+}
+h1{
+	text-align:center;
+}
 .nombre,.edad, #boton{
 	padding:7px;
 }
 
+.box{
+	width:45%;
+	height:300px;
+	background-color:rgb(78, 83, 83);
+	margin:2% auto;
+	border-radius:3px;
+}
+section .nombre, .edad{
+	margin-top:20%;
+}
+
 form{
-	text-align:center;
-	margin-top:10%;
-	margin-bottom:70px;
+	text-align: center;
 }
 table{
 	border:1px solid black;
@@ -18,10 +33,12 @@ th,td{
 	padding:10px;
 	text-align: center;
 }
-table tr:hover{
+
+/*table tr:hover{
 	
-}
+} */
 
 .row:hover{
-	background-color:#ccc;
+	background-color:rgba(7, 7, 7, 0.116);
 }
+
